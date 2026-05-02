@@ -3,6 +3,7 @@ SETUP.md
 
 # --- pi workflow state (per-worktree, never commit) ---
 .pi/
+.pi_config/
 
 # --- Orchestration logs (generated per pi-orchestrate run) ---
 logs/
@@ -13,13 +14,16 @@ docs/calibration/
 # --- Roadmaps (working artifacts — ADRs are the durable output) ---
 docs/roadmap/
 
-# --- Node.js / TypeScript (for when cloned pi-mono code lands) ---
+# --- Node.js / TypeScript ---
 node_modules/
 **/node_modules/
 dist/
 build/
 out/
 *.tsbuildinfo
+packages/*/dist/
+packages/*/dist-chrome/
+packages/*/dist-firefox/
 
 # --- Environment & secrets ---
 .env
@@ -32,11 +36,32 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.vscode/
+.zed/
+.idea/
 
 # --- Coverage & cache ---
 coverage/
 .cache/
 .turbo/
+.npm/
+.nyc_output/
 
 # --- General logs ---
 *.log
+tui-debug.log
+
+# --- Package specific ---
+*.cpuprofile
+compaction-results/
+.opencode/
+syntax.jsonl
+out.jsonl
+pi-*.html
+out.html
+packages/coding-agent/binaries/
+todo.md
+plans/
+.pi/hf-sessions/
+.pi/hf-sessions-backup/
+collect.sh
