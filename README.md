@@ -1,17 +1,17 @@
 # hull
 
-The full pi experience. Built on the harness that can't be removed.
+The full pi experience. Built on the open harness.
 
 ## What
 
-hull is the features layer of pi — TUI, web UI, plugins, and CLI. It tracks upstream [pi-mono](https://github.com/badlogic/pi-mono) and runs on top of [keel](https://github.com/devexcelsior/keel), the MPL-2.0 harness.
+hull is the features layer of pi — TUI, web UI, plugins, and CLI. It tracks upstream [pi-mono](https://github.com/badlogic/pi-mono) and runs on top of [keel](https://github.com/devexcelsior/keel), the MPL-2.0 harness that keeps the core open.
 
 ## Architecture
 
 ```
 helm (MIT)         ← methodology, prompts, orchestration
 hull (MIT)         ← this repo — TUI, web UI, plugins, CLI
-keel (MPL-2.0)     ← agent engine + LLM API — can't be removed
+keel (MPL-2.0)     ← agent engine + LLM API
 ```
 
 ## How it works

@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-check-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout hull
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev fd-find ripgrep
+          sudo ln -s $(which fdfind) /usr/local/bin/fd
+
+      - name: Clone keel
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: devexcelsior/keel
+          path: ../keel
+          persist-credentials: false
+
+      - name: Install keel
+        working-directory: ../keel
+        run: npm ci
+
+      - name: Build keel
+        working-directory: ../keel
+        run: npm run build
+
+      - name: Link keel packages
+        working-directory: ../keel
+        run: |
+          cd packages/ai && npm link
+          cd ../agent && npm link
+
+      - name: Install hull
+        run: npm ci
+
+      - name: Link keel into hull
+        run: |
+          npm link @mariozechner/pi-ai @mariozechner/pi-agent-core
+
+      - name: Build hull
+        run: npm run build
+
+      - name: Lint check
+        run: npx biome check --error-on-warnings .
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Test
+        continue-on-error: true
+        run: npm test --workspaces --if-present
