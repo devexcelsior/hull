@@ -20,12 +20,12 @@
 		"useDefineForClassFields": false,
 		"types": ["node"],
 		"paths": {
-			"@mariozechner/pi-ai": ["../keel/packages/ai/src/index.ts"],
-			"@mariozechner/pi-ai/oauth": ["../keel/packages/ai/src/oauth.ts"],
-			"@mariozechner/pi-ai/*": ["../keel/packages/ai/src/*.ts", "../keel/packages/ai/src/providers/*.ts"],
-			"@mariozechner/pi-ai/dist/*": ["../keel/packages/ai/src/*"],
-			"@mariozechner/pi-agent-core": ["../keel/packages/agent/src/index.ts"],
-			"@mariozechner/pi-agent-core/*": ["../keel/packages/agent/src/*"]
+			"@mariozechner/pi-ai": ["../keel/packages/ai/dist/index.d.ts"],
+			"@mariozechner/pi-ai/oauth": ["../keel/packages/ai/dist/oauth.d.ts"],
+			"@mariozechner/pi-ai/bedrock-provider": ["../keel/packages/ai/dist/bedrock-provider.d.ts"],
+			"@mariozechner/pi-ai/*": ["../keel/packages/ai/dist/*"],
+			"@mariozechner/pi-agent-core": ["../keel/packages/agent/dist/index.d.ts"],
+			"@mariozechner/pi-agent-core/*": ["../keel/packages/agent/dist/*"]
 		}
 	}
 }
