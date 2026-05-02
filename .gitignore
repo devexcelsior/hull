@@ -1,6 +1,3 @@
-# Working orchestration scratchpad
-SETUP.md
-
 # --- pi workflow state (per-worktree, never commit) ---
 .pi/active.md
 .pi_config/
