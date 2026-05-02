@@ -1,0 +1,39 @@
+# Working orchestration scratchpad
+SETUP.md
+
+# --- pi workflow state (per-worktree, never commit) ---
+.pi/
+
+# --- Orchestration logs (generated per pi-orchestrate run) ---
+logs/
+
+# --- Calibration artifacts (generated per step: traces, verify outputs) ---
+docs/calibration/
+
+# --- Node.js / TypeScript (for when cloned pi-mono code lands) ---
+node_modules/
+**/node_modules/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# --- Environment & secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- OS & editor droppings ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# --- Coverage & cache ---
+coverage/
+.cache/
+.turbo/
+
+# --- General logs ---
+*.log
