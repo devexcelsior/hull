@@ -2,7 +2,7 @@
 SETUP.md
 
 # --- pi workflow state (per-worktree, never commit) ---
-.pi/
+.pi/active.md
 .pi_config/
 
 # --- Orchestration logs (generated per pi-orchestrate run) ---
