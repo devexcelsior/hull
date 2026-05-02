@@ -10,6 +10,9 @@ logs/
 # --- Calibration artifacts (generated per step: traces, verify outputs) ---
 docs/calibration/
 
+# --- Roadmaps (working artifacts — ADRs are the durable output) ---
+docs/roadmap/
+
 # --- Node.js / TypeScript (for when cloned pi-mono code lands) ---
 node_modules/
 **/node_modules/
