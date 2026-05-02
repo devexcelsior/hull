@@ -1,78 +1,64 @@
-<p align="center">
-  <a href="https://pi.dev">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://pi.dev/logo.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://huggingface.co/buckets/julien-c/my-training-bucket/resolve/pi-logo-dark.svg">
-      <img alt="pi logo" src="https://pi.dev/logo.svg" width="128">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://discord.com/invite/3cU7Bz4UPx"><img alt="Discord" src="https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
-  <a href="https://github.com/badlogic/pi-mono/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/badlogic/pi-mono/ci.yml?style=flat-square&branch=main" /></a>
-</p>
-<p align="center">
-  <a href="https://pi.dev">pi.dev</a> domain graciously donated by
-  <br /><br />
-  <a href="https://exe.dev"><img src="packages/coding-agent/docs/images/exy.png" alt="Exy mascot" width="48" /><br />exe.dev</a>
-</p>
+# hull
 
-> New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See [CONTRIBUTING.md](CONTRIBUTING.md).
+The full pi experience. Built on the harness that can't be removed.
 
----
+## What
 
-# Pi Monorepo
+hull is the features layer of pi — TUI, web UI, plugins, and CLI. It tracks upstream [pi-mono](https://github.com/badlogic/pi-mono) and runs on top of [keel](https://github.com/devexcelsior/keel), the MPL-2.0 harness.
 
-> **Looking for the pi coding agent?** See **[packages/coding-agent](packages/coding-agent)** for installation and usage.
+## Architecture
 
-Tools for building AI agents.
+```
+helm (MIT)         ← methodology, prompts, orchestration
+hull (MIT)         ← this repo — TUI, web UI, plugins, CLI
+keel (MPL-2.0)     ← agent engine + LLM API — can't be removed
+```
 
-## Share your OSS coding agent sessions
+## How it works
 
-If you use pi or other coding agents for open source work, please share your sessions.
+hull is a build pipeline, not a static fork:
 
-Public OSS session data helps improve coding agents with real-world tasks, tool use, failures, and fixes instead of toy benchmarks.
+```
+pi-mono (upstream) ──pull──→ hull ──rewrite imports──→ features on keel
+```
 
-For the full explanation, see [this post on X](https://x.com/badlogicgames/status/2037811643774652911).
+- Tracks upstream pi-mono
+- Stripped harness packages (ai, agent) — those live in keel
+- Imports rewired via tsconfig paths to keel's harness API
+- Syncs daily via `scripts/sync-upstream.sh`
 
-To publish sessions, use [`badlogic/pi-share-hf`](https://github.com/badlogic/pi-share-hf). Read its README.md for setup instructions. All you need is a Hugging Face account, the Hugging Face CLI, and `pi-share-hf`.
-
-You can also watch [this video](https://x.com/badlogicgames/status/2041151967695634619), where I show how I publish my `pi-mono` sessions.
-
-I regularly publish my own `pi-mono` work sessions here:
-
-- [badlogicgames/pi-mono on Hugging Face](https://huggingface.co/datasets/badlogicgames/pi-mono)
+If pi-mono ever changes its license, the sync script stops pulling. hull becomes the community upstream for features from the last MIT commit.
 
 ## Packages
 
 | Package | Description |
 |---------|-------------|
-| **[@mariozechner/pi-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
-| **[@mariozechner/pi-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
-| **[@mariozechner/pi-coding-agent](packages/coding-agent)** | Interactive coding agent CLI |
-| **[@mariozechner/pi-tui](packages/tui)** | Terminal UI library with differential rendering |
-| **[@mariozechner/pi-web-ui](packages/web-ui)** | Web components for AI chat interfaces |
+| **coding-agent** | Interactive coding agent CLI |
+| **tui** | Terminal UI library with differential rendering |
+| **web-ui** | Web components for AI chat interfaces |
 
-## Chat bot workflows
-
-For Slack/chat automation, see [earendil-works/pi-chat](https://github.com/earendil-works/pi-chat).
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and [AGENTS.md](AGENTS.md) for project-specific rules (for both humans and agents).
-
-## Development
+## Quick start
 
 ```bash
-npm install          # Install all dependencies
-npm run build        # Build all packages
-npm run check        # Lint, format, and type check
-./test.sh            # Run tests (skips LLM-dependent tests without API keys)
-./pi-test.sh         # Run pi from sources (can be run from any directory)
+# Clone hull alongside keel
+git clone https://github.com/devexcelsior/keel.git
+git clone https://github.com/devexcelsior/hull.git
+
+# Build the harness
+cd keel && npm install && npm run build && cd ..
+
+# Build features against the harness
+cd hull && npm install && npm run build && cd ..
 ```
 
-> **Note:** `npm run check` requires `npm run build` to be run first. The web-ui package uses `tsc` which needs compiled `.d.ts` files from dependencies.
+## Staying current
+
+```bash
+./scripts/sync-upstream.sh
+```
+
+Cherry-picks upstream pi-mono commits that touch feature packages (coding-agent, tui, web-ui). Harness-only commits are skipped — those belong in keel.
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
