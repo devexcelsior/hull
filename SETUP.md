@@ -327,3 +327,25 @@ Set description: `The full pi experience. Built on the harness that can't be rem
 4. Use tsconfig paths (Option A) for now — it preserves upstream import names, enables clean cherry-picks, and avoids `file:` dependency footguns. Scope rename is a future hard-fork decision.
 5. Do not modify feature logic. This is structural + import path changes only.
 6. When pi-mono eventually closes, hull's sync script stops pulling. That's the design. The last MIT-synced commit becomes the community baseline.
+
+---
+
+## Remaining for tomorrow
+
+| # | Slug | Status | What |
+|---|---|---|---|
+| 5 | `hull-readme` | ⏳ Not started | Write README.md with architecture diagram, clone/build/sync instructions, MIT license header. Overwrite upstream README. |
+| 6 | `hull-build` | ⏳ Deferred | `npm install`, `npm run build`, `npm run test --workspaces --if-present`. Requires: (a) keel packages linked or built, (b) `tsconfig.base.json` paths verified in package builds, (c) `@mariozechner/pi-coding-agent` dependency in root package.json may need local override. |
+
+### Blockers for hull-build
+
+1. **keel must be linked or built locally** — `npm link` the ai and agent packages, or add them as `file:` deps temporarily for the build.
+2. **`tsconfig.base.json` paths** — just added `@mariozechner/pi-ai` → `../keel/packages/ai/src`. Verify `packages/coding-agent/tsconfig.build.json` picks these up on `npm run build`.
+3. **Root package.json dependency** — `"@mariozechner/pi-coding-agent": "^0.30.2"` in `dependencies` may resolve from npm instead of local workspace. Check if this causes version skew.
+
+### Next command
+
+```bash
+cd /home/devex/Projects/hull
+/home/devex/.pi/agent/bin/pi-orchestrate hull-readme "Write README.md with architecture diagram showing hull depends on keel at /home/devex/Projects/keel, clone/build/sync instructions, MIT license header. Overwrite upstream README."
+```
