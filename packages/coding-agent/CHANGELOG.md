@@ -2,7 +2,13 @@
 
 ## [Unreleased]
 
-## [0.72.1] - 2026-05-02
+### Breaking Changes
+
+- Switched the built-in `xiaomi` provider from Token Plan AMS to Xiaomi's API billing endpoint, and renamed its `/login` display from "Xiaomi MiMo Token Plan" to "Xiaomi MiMo". `XIAOMI_API_KEY` now refers to the API billing key from [platform.xiaomimimo.com](https://platform.xiaomimimo.com). Users on Token Plan should switch to the appropriate `xiaomi-token-plan-*` provider and set the corresponding env var.
+
+### Added
+
+- Added three Xiaomi MiMo Token Plan regional providers visible in `/login`: `xiaomi-token-plan-cn` (`XIAOMI_TOKEN_PLAN_CN_API_KEY`), `xiaomi-token-plan-ams` (`XIAOMI_TOKEN_PLAN_AMS_API_KEY`), `xiaomi-token-plan-sgp` (`XIAOMI_TOKEN_PLAN_SGP_API_KEY`). Each defaults to `mimo-v2.5-pro`.
 
 ### Changed
 
