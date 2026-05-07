@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 // Requires GitHub CLI (`gh`) and a GitHub repository checkout.
 // Preloads the latest open issues once per session, then filters them locally for fast `#...` completion.
 

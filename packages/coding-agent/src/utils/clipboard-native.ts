@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { createRequire } from "module";
 
 export type ClipboardModule = {

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { setKeybindings } from "@mariozechner/pi-tui";
 import stripAnsi from "strip-ansi";
 import { afterEach, beforeAll, beforeEach, describe, expect, it } from "vitest";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { AgentState } from "@mariozechner/pi-agent-core";
 import { existsSync, readFileSync, writeFileSync } from "fs";
 import { basename, join } from "path";

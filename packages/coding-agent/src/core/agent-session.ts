@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * AgentSession - Core abstraction for agent lifecycle and session management.
  *

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { PhotonImageType } from "./photon.js";
 
 type Photon = typeof import("@silvia-odwyer/photon-node");

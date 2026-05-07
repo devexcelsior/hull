@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * List available models with optional fuzzy search
  */

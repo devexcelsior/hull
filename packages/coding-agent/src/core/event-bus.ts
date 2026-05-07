@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { EventEmitter } from "node:events";
 
 export interface EventBus {

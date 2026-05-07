@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Workaround for https://github.com/oven-sh/bun/issues/27802
  *

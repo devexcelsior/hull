@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * DOOM Component for overlay mode
  *

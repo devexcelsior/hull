@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Truncated Tool Example - Demonstrates proper output truncation for custom tools
  *

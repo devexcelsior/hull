@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type * as NodeOs from "node:os";
 import type {
 	Tool as OpenAITool,

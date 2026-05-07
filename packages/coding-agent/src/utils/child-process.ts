@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { ChildProcess } from "node:child_process";
 import { basename } from "node:path";
 

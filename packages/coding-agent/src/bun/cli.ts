@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { APP_NAME } from "../config.js";
 
 process.title = APP_NAME;

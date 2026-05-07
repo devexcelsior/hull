@@ -1,4 +1,5 @@
 #!/usr/bin/env tsx
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Manual SDK probe for OpenAI Codex prompt caching through the tool loop.
  *

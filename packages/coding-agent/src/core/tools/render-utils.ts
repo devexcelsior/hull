@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import * as os from "node:os";
 import type { ImageContent, TextContent } from "@mariozechner/pi-ai";
 import { getCapabilities, getImageDimensions, imageFallback } from "@mariozechner/pi-tui";

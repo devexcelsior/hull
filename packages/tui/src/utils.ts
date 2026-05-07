@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { eastAsianWidth } from "get-east-asian-width";
 
 // Grapheme segmenter (shared instance)

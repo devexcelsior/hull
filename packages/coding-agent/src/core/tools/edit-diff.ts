@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Shared diff computation utilities for the edit tool.
  * Used by both edit.ts (for execution) and tool-execution.ts (for preview rendering).

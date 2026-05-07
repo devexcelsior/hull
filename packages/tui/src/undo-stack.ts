@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Generic undo stack with clone-on-push semantics.
  *

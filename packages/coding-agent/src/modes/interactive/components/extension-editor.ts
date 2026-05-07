@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Multi-line editor component for extensions.
  * Supports Ctrl+G for external editor.

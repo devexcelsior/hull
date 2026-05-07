@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { APP_NAME } from "../config.js";
 import type { SourceInfo } from "./source-info.js";
 

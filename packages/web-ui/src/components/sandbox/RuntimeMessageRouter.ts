@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { SandboxRuntimeProvider } from "./SandboxRuntimeProvider.js";
 
 // Type declaration for chrome extension API (when available)

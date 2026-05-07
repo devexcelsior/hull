@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Generic selector component for extensions.
  * Displays a list of string options with keyboard navigation.

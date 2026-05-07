@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { icon } from "@mariozechner/mini-lit";
 import "@mariozechner/mini-lit/dist/CopyButton.js";
 import { html, LitElement, type TemplateResult } from "lit";

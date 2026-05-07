@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { CopyButton } from "@mariozechner/mini-lit/dist/CopyButton.js";
 import { DownloadButton } from "@mariozechner/mini-lit/dist/DownloadButton.js";
 import { PreviewCodeToggle } from "@mariozechner/mini-lit/dist/PreviewCodeToggle.js";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";

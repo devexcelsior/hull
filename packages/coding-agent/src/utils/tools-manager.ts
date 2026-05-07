@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import chalk from "chalk";
 import { spawnSync } from "child_process";
 import extractZip from "extract-zip";

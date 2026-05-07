@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Example extension demonstrating timed dialogs with live countdown.
  *

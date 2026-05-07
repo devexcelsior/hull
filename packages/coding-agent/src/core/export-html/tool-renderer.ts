@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Tool HTML renderer for custom tools in HTML export.
  *

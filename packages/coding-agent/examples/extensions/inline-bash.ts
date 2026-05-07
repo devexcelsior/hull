@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Inline Bash Extension - expands inline bash commands in user prompts.
  *

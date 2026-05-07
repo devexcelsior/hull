@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Interface for providing runtime capabilities to sandboxed iframes.
  * Each provider injects data and runtime functions into the sandbox context.

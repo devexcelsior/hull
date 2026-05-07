@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Tic-Tac-Toe extension - demonstrates executionMode: "sequential" on tools.
  *

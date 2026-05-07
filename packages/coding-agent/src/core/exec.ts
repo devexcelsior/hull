@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Shared command execution utilities for extensions and custom tools.
  */

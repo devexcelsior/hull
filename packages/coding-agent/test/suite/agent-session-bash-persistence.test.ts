@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Buffer } from "node:buffer";
 import type { AgentTool } from "@mariozechner/pi-agent-core";
 import { fauxAssistantMessage, fauxToolCall } from "@mariozechner/pi-ai";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Armin says hi! A fun easter egg with animated XBM art.
  */

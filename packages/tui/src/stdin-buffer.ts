@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * StdinBuffer buffers input and emits complete sequences.
  *

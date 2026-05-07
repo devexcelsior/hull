@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Todo Extension - Demonstrates state management via session entries
  *

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * RPC mode: Headless operation with JSON stdin/stdout protocol.
  *

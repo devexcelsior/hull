@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Space Invaders game extension - play with /invaders command
  * Uses Kitty keyboard protocol for smooth movement (press/release detection)

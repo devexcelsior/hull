@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { TextContent } from "@mariozechner/pi-ai";
 import type { Component } from "@mariozechner/pi-tui";
 import { Box, Container, Markdown, type MarkdownTheme, Spacer, Text } from "@mariozechner/pi-tui";

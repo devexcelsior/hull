@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { LitElement, type TemplateResult } from "lit";
 
 export abstract class ArtifactElement extends LitElement {

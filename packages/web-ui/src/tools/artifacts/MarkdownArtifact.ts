@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import hljs from "highlight.js";
 import { html } from "lit";
 import { customElement, property, state } from "lit/decorators.js";

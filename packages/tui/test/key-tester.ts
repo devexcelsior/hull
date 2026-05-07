@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { matchesKey } from "../src/keys.js";
 import { ProcessTerminal } from "../src/terminal.js";
 import { type Component, TUI } from "../src/tui.js";

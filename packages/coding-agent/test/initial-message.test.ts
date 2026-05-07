@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { describe, expect, test } from "vitest";
 import type { Args } from "../src/cli/args.js";
 import { buildInitialMessage } from "../src/cli/initial-message.js";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 export { ArtifactElement } from "./ArtifactElement.js";
 export { type Artifact, ArtifactsPanel, type ArtifactsParams } from "./artifacts.js";
 export { ArtifactsToolRenderer } from "./artifacts-tool-renderer.js";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { open } from "node:fs/promises";
 import { fileTypeFromBuffer } from "file-type";
 

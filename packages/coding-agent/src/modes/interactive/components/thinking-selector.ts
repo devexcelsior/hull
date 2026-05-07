@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { ThinkingLevel } from "@mariozechner/pi-agent-core";
 import { Container, type SelectItem, SelectList, type SelectListLayoutOptions } from "@mariozechner/pi-tui";
 import { getSelectListTheme } from "../theme/theme.js";

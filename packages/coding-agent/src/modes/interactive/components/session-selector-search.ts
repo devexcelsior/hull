@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { fuzzyMatch } from "@mariozechner/pi-tui";
 import type { SessionInfo } from "../../../core/session-manager.js";
 

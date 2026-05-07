@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { Component } from "@mariozechner/pi-tui";
 import { theme } from "../theme/theme.js";
 

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { LMStudioClient } from "@lmstudio/sdk";
 import type { Model } from "@mariozechner/pi-ai";
 import { Ollama } from "ollama/browser";

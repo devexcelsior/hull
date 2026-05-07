@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { fuzzyFilter } from "../fuzzy.js";
 import { getKeybindings } from "../keybindings.js";
 import type { Component } from "../tui.js";

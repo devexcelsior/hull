@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { icon } from "@mariozechner/mini-lit";
 import { html, type TemplateResult } from "lit";
 import { FileCode2 } from "lucide";

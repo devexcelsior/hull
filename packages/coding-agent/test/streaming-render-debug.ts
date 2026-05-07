@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Debug script to reproduce streaming rendering issues.
  * Uses real fixture data that caused the bug.

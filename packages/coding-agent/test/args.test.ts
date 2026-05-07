@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { describe, expect, test } from "vitest";
 import { parseArgs } from "../src/cli/args.js";
 

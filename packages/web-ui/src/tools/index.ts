@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { ToolResultMessage } from "@mariozechner/pi-ai";
 import "./javascript-repl.js"; // Auto-registers the renderer
 import "./extract-document.js"; // Auto-registers the renderer

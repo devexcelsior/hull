@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { DownloadButton } from "@mariozechner/mini-lit/dist/DownloadButton.js";
 import { html, type TemplateResult } from "lit";
 import { customElement, property } from "lit/decorators.js";

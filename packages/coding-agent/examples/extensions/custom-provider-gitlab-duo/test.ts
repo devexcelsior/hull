@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Test script for GitLab Duo extension
  * Run: npx tsx test.ts [model-id] [--thinking]

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { spawn } from "child_process";
 import { readdirSync, statSync } from "fs";
 import { homedir } from "os";

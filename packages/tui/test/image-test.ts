@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { readFileSync } from "fs";
 import { Image } from "../src/components/image.js";
 import { Spacer } from "../src/components/spacer.js";

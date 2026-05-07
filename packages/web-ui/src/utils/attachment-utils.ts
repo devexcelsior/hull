@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { parseAsync } from "docx-preview";
 import JSZip from "jszip";
 import type { PDFDocumentProxy } from "pdfjs-dist";

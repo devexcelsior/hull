@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Syncs pi theme with macOS system appearance (dark/light mode).
  *

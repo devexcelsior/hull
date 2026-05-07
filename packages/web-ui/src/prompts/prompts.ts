@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Centralized tool prompts/descriptions.
  * Each prompt is either a string constant or a template function.

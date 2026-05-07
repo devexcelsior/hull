@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { truncateToWidth, visibleWidth } from "@mariozechner/pi-tui";
 import { describe, expect, it } from "vitest";
 

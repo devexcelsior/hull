@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { spawnSync } from "child_process";
 import { randomUUID } from "crypto";
 import { readFileSync, unlinkSync } from "fs";

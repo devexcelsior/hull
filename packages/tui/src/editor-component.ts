@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { AutocompleteProvider } from "./autocomplete.js";
 import type { Component } from "./tui.js";
 

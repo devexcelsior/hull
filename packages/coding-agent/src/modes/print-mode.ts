@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Print mode (single-shot): Send prompts, output result, exit.
  *

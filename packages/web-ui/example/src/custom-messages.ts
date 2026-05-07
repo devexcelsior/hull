@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Alert } from "@mariozechner/mini-lit/dist/Alert.js";
 import type { Message } from "@mariozechner/pi-ai";
 import type { AgentMessage, MessageRenderer } from "@mariozechner/pi-web-ui";

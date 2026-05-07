@@ -1,4 +1,5 @@
 #!/usr/bin/env tsx
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Count tokens in system prompts using Anthropic's token counter API
  */

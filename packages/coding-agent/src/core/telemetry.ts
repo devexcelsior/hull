@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { SettingsManager } from "./settings-manager.js";
 
 function isTruthyEnvFlag(value: string | undefined): boolean {

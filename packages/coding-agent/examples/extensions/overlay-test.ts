@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Overlay Test - validates overlay compositing with inline text inputs
  *

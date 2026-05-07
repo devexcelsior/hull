@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import * as fs from "node:fs";
 import { Container, Image, Spacer, Text } from "@mariozechner/pi-tui";
 import { getBundledInteractiveAssetPath } from "../../../config.js";

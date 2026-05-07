@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { join } from "node:path";
 import { Text, type TUI } from "@mariozechner/pi-tui";
 import stripAnsi from "strip-ansi";

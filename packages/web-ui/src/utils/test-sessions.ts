@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 // biome-ignore lint/suspicious/noTemplateCurlyInString: Test data contains code snippets with template literals
 export const simpleHtml = {
 	systemPrompt:

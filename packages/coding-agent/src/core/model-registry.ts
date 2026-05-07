@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Model registry - manages built-in and custom models, provides API key resolution.
  */

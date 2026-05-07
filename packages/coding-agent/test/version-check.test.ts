@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
 	checkForNewPiVersion,

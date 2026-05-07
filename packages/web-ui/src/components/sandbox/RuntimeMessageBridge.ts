@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Generates sendRuntimeMessage() function for injection into execution contexts.
  * Provides unified messaging API that works in both sandbox iframe and user script contexts.

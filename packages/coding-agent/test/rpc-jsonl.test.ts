@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Readable } from "node:stream";
 import { describe, expect, test } from "vitest";
 import { attachJsonlLineReader, serializeJsonLine } from "../src/modes/rpc/jsonl.js";

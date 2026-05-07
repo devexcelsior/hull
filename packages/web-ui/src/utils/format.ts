@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { i18n } from "@mariozechner/mini-lit";
 import type { Usage } from "@mariozechner/pi-ai";
 

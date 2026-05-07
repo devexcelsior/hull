@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Central timing instrumentation for startup profiling.
  * Enable with PI_TIMING=1 environment variable.

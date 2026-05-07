@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import PromptDialog from "@mariozechner/mini-lit/dist/PromptDialog.js";
 import { i18n } from "./i18n.js";
 

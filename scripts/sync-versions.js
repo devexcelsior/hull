@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Syncs ALL @mariozechner/* package dependency versions to match their current versions.
  * This ensures lockstep versioning across the monorepo.

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import "@mariozechner/mini-lit/dist/CodeBlock.js";
 import type { ToolResultMessage } from "@mariozechner/pi-ai";
 import { createRef, ref } from "lit/directives/ref.js";

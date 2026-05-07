@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 export interface ResourceCollision {
 	resourceType: "extension" | "skill" | "prompt" | "theme";
 	name: string; // skill name, command/tool/flag name, prompt name, theme name

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * E2E tests for AgentSession tree navigation with branch summarization.
  *

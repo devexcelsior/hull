@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { ConsoleRuntimeProvider } from "./sandbox/ConsoleRuntimeProvider.js";

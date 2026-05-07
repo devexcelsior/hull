@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Input Transform Example - demonstrates the `input` event for intercepting user input.
  *

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Copyright (c) 2025 Mario Zechner. MIT License.
 
 import { createReadStream } from "node:fs";
 import { promises as fs } from "node:fs";

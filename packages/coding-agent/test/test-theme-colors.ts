@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import fs from "fs";
 import { initTheme, theme } from "../src/modes/interactive/theme/theme.js";
 

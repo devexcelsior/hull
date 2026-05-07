@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { Component } from "@mariozechner/pi-tui";
 import { readFileSync } from "fs";
 import { describe, expect, it } from "vitest";

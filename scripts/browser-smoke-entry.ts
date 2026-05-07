@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { complete, getModel } from "@mariozechner/pi-ai";
 
 const model = getModel("google", "gemini-2.5-flash");

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { getPiUserAgent } from "./pi-user-agent.js";
 
 const LATEST_VERSION_URL = "https://pi.dev/api/latest-version";

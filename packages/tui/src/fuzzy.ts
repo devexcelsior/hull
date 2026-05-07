@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Fuzzy matching utilities.
  * Matches if all query characters appear in order (not necessarily consecutive).

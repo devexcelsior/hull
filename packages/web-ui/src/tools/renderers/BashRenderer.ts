@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { ToolResultMessage } from "@mariozechner/pi-ai";
 import { html } from "lit";
 import { SquareTerminal } from "lucide";

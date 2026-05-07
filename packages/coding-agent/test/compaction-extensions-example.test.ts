@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Verify the documentation example from extensions.md compiles and works.
  */

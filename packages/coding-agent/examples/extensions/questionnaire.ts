@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Questionnaire Tool - Unified tool for asking single or multiple questions
  *

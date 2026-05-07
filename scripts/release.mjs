@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Release script for pi-mono
  *

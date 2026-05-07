@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { AgentTool } from "@mariozechner/pi-agent-core";
 import { Box, Container, Spacer, Text } from "@mariozechner/pi-tui";
 import { constants } from "fs";

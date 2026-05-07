@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Minimal Mode Example - Demonstrates a "minimal" tool display mode
  *

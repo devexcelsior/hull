@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Pure utility functions for plan mode.
  * Extracted for testability.

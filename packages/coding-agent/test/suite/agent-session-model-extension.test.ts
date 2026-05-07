@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { AgentTool, ThinkingLevel } from "@mariozechner/pi-agent-core";
 import { fauxAssistantMessage, fauxToolCall, type Model } from "@mariozechner/pi-ai";
 import { Type } from "typebox";

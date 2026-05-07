@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Editor, type EditorOptions, type EditorTheme, type TUI } from "@mariozechner/pi-tui";
 import type { AppKeybinding, KeybindingsManager } from "../../../core/keybindings.js";
 

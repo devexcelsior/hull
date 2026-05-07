@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import assert from "node:assert";
 import { describe, it } from "node:test";
 import { ProcessTerminal } from "../src/terminal.js";

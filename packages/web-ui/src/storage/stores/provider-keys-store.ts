@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Store } from "../store.js";
 import type { StoreConfig } from "../types.js";
 

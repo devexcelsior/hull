@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * DOOM Engine - WebAssembly wrapper for doomgeneric
  */

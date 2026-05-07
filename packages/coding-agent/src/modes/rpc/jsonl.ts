@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import type { Readable } from "node:stream";
 import { StringDecoder } from "node:string_decoder";
 

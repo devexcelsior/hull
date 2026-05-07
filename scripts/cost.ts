@@ -1,4 +1,5 @@
 #!/usr/bin/env npx tsx
+// Copyright (c) 2025 Mario Zechner. MIT License.
 
 import * as fs from "fs";
 import * as path from "path";

@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { Agent } from "@mariozechner/pi-agent-core";
 import { type AssistantMessage, getModel, type Usage } from "@mariozechner/pi-ai";
 import { describe, expect, it } from "vitest";

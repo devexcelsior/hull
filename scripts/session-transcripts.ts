@@ -1,4 +1,5 @@
 #!/usr/bin/env npx tsx
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Extracts session transcripts for a given cwd, splits into context-sized files,
  * optionally spawns subagents to analyze patterns.

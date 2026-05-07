@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import chalk from "chalk";
 import { spawn } from "child_process";
 import { selectConfig } from "./cli/config-selector.js";

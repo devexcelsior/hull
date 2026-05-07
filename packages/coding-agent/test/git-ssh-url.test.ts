@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { describe, expect, it } from "vitest";
 import { parseGitUrl } from "../src/utils/git.js";
 

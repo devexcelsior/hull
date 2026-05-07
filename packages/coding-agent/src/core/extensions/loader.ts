@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 /**
  * Extension loader - loads TypeScript extension modules using jiti.
  *

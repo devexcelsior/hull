@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vitest/config";
 

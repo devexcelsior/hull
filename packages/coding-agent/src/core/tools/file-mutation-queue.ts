@@ -1,3 +1,4 @@
+// Copyright (c) 2025 Mario Zechner. MIT License.
 import { realpathSync } from "node:fs";
 import { resolve } from "node:path";
 
